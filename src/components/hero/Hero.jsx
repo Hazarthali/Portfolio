@@ -1,7 +1,9 @@
 import React from 'react';
 import styles from './hero.module.css';
 import { getImageUrl } from '../../utils';
+
 const Hero = () => {
+  console.log(getImageUrl('hero/heroImage.png'));
   return (
     <section className={styles.container}>
       {/* user summary */}
