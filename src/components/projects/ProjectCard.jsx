@@ -30,7 +30,7 @@ const ProjectCard = ({ project }) => {
             { label: 'Demo', link: project.demo },
             // { label: 'Source', link: project.source },
           ].map((item) => (
-            <a href={item?.link} key={item?.label}>
+            <a href={item?.link} key={item?.label} target='_blank'>
               {item?.label}
             </a>
           ))}

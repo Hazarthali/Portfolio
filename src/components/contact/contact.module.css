@@ -17,3 +17,9 @@
   margin: 10px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 830px) {
+  .title {
+    font-size: 20px;
+  }
+}
