@@ -19,7 +19,11 @@ const Contact = () => {
         ].map((social) => (
           <a
             key={social.name}
-            href={social.link || '#'}
+            href={
+              social.name == 'email'
+                ? 'mailto:hazarathali78@gmail.com'
+                : social.link || '#'
+            }
             target={social.link ? '_blank' : '_self'}
             rel='noopener noreferrer'
             onClick={(e) => {

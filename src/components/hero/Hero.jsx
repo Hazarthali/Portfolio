@@ -11,7 +11,7 @@ const Hero = () => {
           I'm FrontEnd Developer with 4 years experience using React,
           Javascript, HTML, CSS, Material-UI
         </p>
-        <a className={styles.contactBtn} href='mailto:myemail@gmail.com'>
+        <a className={styles.contactBtn} href='mailto:hazarathali78@gmail.com'>
           Contact Me
         </a>
         {/* <button className={styles.contactBtn}>Contact Me</button> */}

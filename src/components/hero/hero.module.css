@@ -9,8 +9,7 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 62px;
-  /* overflow: hidden; */
+  margin-top: 65px;
 }
 
 .content {
@@ -100,6 +99,11 @@
   z-index: 0;
 }
 
+@media screen and (max-width: 1290px) {
+  .container {
+    margin-top: 58px;
+  }
+}
 @media screen and (max-width: 830px) {
   .title {
     font-size: 30px;
