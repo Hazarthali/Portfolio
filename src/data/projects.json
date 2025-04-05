@@ -1,26 +1,15 @@
 [
   {
-    "title": "Project A",
+    "title": "Sixovers",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "The sixovers project is a cricket-based platform designed to provide users with an engaging experience related to short-format cricket contests. ",
+    "skills": ["React", "Javascript", "HTML", "MUI"],
+    "demo": "https://6overs.com"
   },
   {
-    "title": "Project B",
+    "title": "Admin Dashboard",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "The Admin Project is control panel designed for managing the 6Overs platform.",
+    "skills": ["React", "Javascript", "HTML", "MUI"]
   }
 ]

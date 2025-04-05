@@ -9,16 +9,6 @@ const About = () => {
       desc: 'I’m a front-end developer with experience in building responsive and optimized sites',
       imgSrc: 'about/cursorIcon.png',
     },
-    {
-      header: 'Backend Developer',
-      desc: 'I have experience developing fast and optimized back-end systems and APIs',
-      imgSrc: 'about/serverIcon.png',
-    },
-    {
-      header: 'Frontend Developer',
-      desc: 'I’m a front-end developer with experience in building responsive and optimized sites',
-      imgSrc: 'about/uiIcon.png',
-    },
   ];
   return (
     <section className={styles.container} id='about'>
@@ -27,7 +17,7 @@ const About = () => {
         {/* image */}
         <img
           className={styles.aboutImg}
-          src={getImageUrl('about/aboutImage.png')}
+          src={getImageUrl('about/developer.png')}
           alt='about'
         />
         <div className={styles.aboutItems}>

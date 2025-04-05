@@ -32,8 +32,9 @@
 
 .skill {
   background: var(--color-dark);
-  padding: 5px 15px;
+  padding: 5px 10px;
   border-radius: 20px;
+  text-align: center;
 }
 
 .actionBtns {

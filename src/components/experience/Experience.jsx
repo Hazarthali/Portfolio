@@ -29,7 +29,11 @@ const Experience = () => {
         <div className={styles.experiences}>
           {experiences.map((exp, index) => (
             <div key={index} className={styles.expe}>
-              <img src={getImageUrl(exp.imageSrc)} alt={exp.organisation} />
+              <img
+                style={{ width: '50px', height: '50px' }}
+                src={getImageUrl(exp.imageSrc)}
+                alt={exp.organisation}
+              />
               <div>
                 <h4>{`${exp.role}, ${exp.organisation}`}</h4>
                 <p>{`${exp.startDate} - ${exp.endDate}`}</p>

@@ -11,8 +11,11 @@ const Contact = () => {
       <div className={styles.content}>
         {[
           { name: 'email', link: 'hazarathali78@gmail.com' },
-          { name: 'github', link: '' },
-          { name: 'linkedin', link: '' },
+          // { name: 'github', link: '' },
+          // {
+          //   name: 'linkedin',
+          //   link: 'http://www.linkedin.com/in/hazarath-ali-a87019159',
+          // },
         ].map((social) => (
           <a
             key={social.name}

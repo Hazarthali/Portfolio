@@ -24,16 +24,18 @@ const ProjectCard = ({ project }) => {
       </div>
 
       {/* action buttons */}
-      <div className={styles.actionBtns}>
-        {[
-          { label: 'Demo', link: project.demo },
-          { label: 'Source', link: project.source },
-        ].map((item) => (
-          <a href={item.link} key={item.label}>
-            {item.label}
-          </a>
-        ))}
-      </div>
+      {project?.demo && (
+        <div className={styles.actionBtns}>
+          {[
+            { label: 'Demo', link: project.demo },
+            // { label: 'Source', link: project.source },
+          ].map((item) => (
+            <a href={item?.link} key={item?.label}>
+              {item?.label}
+            </a>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
